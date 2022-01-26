@@ -38,14 +38,16 @@ body {
 	left: 0;
 	height: 50px;
 	width: 50px;
-	transition: transform 3s ease;
+	transition: transform 0.3s ease;
 }
 .btn:focus,
 .input:focus {
 	outline: none;
 }
 
-.container.active .input{
-	width: :200px;
+.container.active .input {
+	width: 200px;
 }
-.container.active .btn
+.container.active .btn {
+	transform: translateX(198px);
+}
